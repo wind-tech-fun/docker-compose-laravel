@@ -17,7 +17,7 @@ services:
     image: "bitnami/laravel:10-debian-12"
     container_name: laravel-project02
     volumes:
-      - //c/Docker/laravel/project02/application/:/app 
+      - /var/home/myapp/laravel/project02/application/:/app 
     ports:
       - 39912:8000
     env_file:
